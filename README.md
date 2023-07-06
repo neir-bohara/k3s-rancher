@@ -5,6 +5,7 @@ Lightweight, easy, fast Kubernetes distribution with a very small footprint
 https://k3s.io or https://k3d.io for the dockerized version of k3s.
 
 #K3s - Lightweight Kubernetes
+
 Lightweight Kubernetes. Easy to install, half the memory, all in a binary of less than 100 MB.
 
 Great for:
@@ -18,6 +19,7 @@ Embedding K8s
 Situations where a PhD in K8s clusterology is infeasible
 
 #What is K3s?
+
 K3s is a fully compliant Kubernetes distribution with the following enhancements:
 
 Packaged as a single binary.
@@ -41,6 +43,7 @@ Embedded local-path-provisioner
 Host utilities (iptables, socat, etc)
 
 #What's with the name?
+
 We wanted an installation of Kubernetes that was half the size in terms of memory footprint. Kubernetes is a 10-letter word stylized as K8s. So something half as big as Kubernetes would be a 5-letter word stylized as K3s. There is no long form of K3s and no official pronunciation.
 
 ## Demo
