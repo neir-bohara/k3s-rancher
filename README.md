@@ -8,16 +8,6 @@ https://k3s.io or https://k3d.io for the dockerized version of k3s.
 
 Lightweight Kubernetes. Easy to install, half the memory, all in a binary of less than 100 MB.
 
-Great for:
-
-Edge
-IoT
-CI
-Development
-ARM
-Embedding K8s
-Situations where a PhD in K8s clusterology is infeasible
-
 # What is K3s?
 
 K3s is a fully compliant Kubernetes distribution with the following enhancements:
