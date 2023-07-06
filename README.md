@@ -13,6 +13,12 @@ By default K3s using the traefik so we gonna disable the traefik and using the N
 
 `curl -sfL https://get.k3s.io | sh -s - --disable traefik` 
 
+### Copy the kubeconfig to run the kubectl command
+`cp /etc/rancher/k3s/k3s.yaml ~/.kube/config`
+OR
+`export KUBECONFIG=/etc/rancher/k3s/k3s.yaml`
+`kubectl get pods --all-namespaces`
+
 ### Install Worker
 
 Grab token from the master node to be able to add worked nodes to it: 
