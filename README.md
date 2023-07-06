@@ -4,6 +4,45 @@ Lightweight, easy, fast Kubernetes distribution with a very small footprint
 
 https://k3s.io or https://k3d.io for the dockerized version of k3s.
 
+#K3s - Lightweight Kubernetes
+Lightweight Kubernetes. Easy to install, half the memory, all in a binary of less than 100 MB.
+
+Great for:
+
+Edge
+IoT
+CI
+Development
+ARM
+Embedding K8s
+Situations where a PhD in K8s clusterology is infeasible
+
+#What is K3s?
+K3s is a fully compliant Kubernetes distribution with the following enhancements:
+
+Packaged as a single binary.
+Lightweight storage backend based on sqlite3 as the default storage mechanism. etcd3, MySQL, Postgres are also available.
+Wrapped in simple launcher that handles a lot of the complexity of TLS and options.
+Secure by default with reasonable defaults for lightweight environments.
+Simple but powerful "batteries-included" features have been added, such as:
+local storage provider
+service load balancer
+Helm controller
+Traefik ingress controller.
+Operation of all Kubernetes control plane components is encapsulated in a single binary and process. This allows K3s to automate and manage complex cluster operations like distributing certificates.
+External dependencies have been minimized (just a modern kernel and cgroup mounts needed). K3s packages the required dependencies, including:
+containerd
+Flannel (CNI)
+CoreDNS
+Traefik (Ingress)
+Klipper-lb (Service LB)
+Embedded network policy controller
+Embedded local-path-provisioner
+Host utilities (iptables, socat, etc)
+
+#What's with the name?
+We wanted an installation of Kubernetes that was half the size in terms of memory footprint. Kubernetes is a 10-letter word stylized as K8s. So something half as big as Kubernetes would be a 5-letter word stylized as K3s. There is no long form of K3s and no official pronunciation.
+
 ## Demo
 
 I'll use Linux Instance For that Demo.
